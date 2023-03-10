@@ -4,25 +4,41 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Sprint Challenge - Anasayfa</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/index.css">
+
 </head>
 
 <body>
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+			<div class="containerClamp">
 
+				<h1>ERGİNEER BAR VE MANGAL</h1>
 				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+				<nav class="menu">
+					<li>
+						<ul><a href="#">Menü</a></ul>
+						<ul><a href="#">Rezervasyonlar</a></ul>
+						<ul><a href="#">Özel Teklifler</a></ul>
+						<ul><a href="#">İletişim</a></ul>
+					</li>
+				</nav>
+				<div class="icon">
+					<img src="https://i.pinimg.com/originals/f9/b1/1d/f9b11dc9cf3f213059b53602f67a32de.png" width="30"
+						height="30" alt="facebook">
+					<img src="https://w7.pngwing.com/pngs/237/161/png-transparent-logo-computer-icons-others-miscellaneous-text-logo-thumbnail.png"
+						width="30" height="30" alt="instagram">
+					<img src="https://www.clipartmax.com/png/middle/284-2840951_html5-icon-white-twitter-logo-square.png"
+						width="30" height="30" alt="twitter">
+				</div>
 			</div>
 		</header>
 
@@ -30,24 +46,25 @@
 		<section class="gallery">
 			<div>
 				<h2>YEMEKLERİMİZ</h2>
+				<div class="images">
 
-				img/food-avocadotoast.jpg
+					<img src="img/food-avocadotoast.jpg" alt="">
 
-				img/food-burger.jpg
+					<img src="img/food-burger.jpg" alt="">
+					<img src="img/food-poutine.jpg" alt="">
 
-				img/food-poutine.jpg
+					<img src="img/food-ribs.jpg" alt="">
 
-				img/food-ribs.jpg
+					<img src="img/food-sandwich.jpg" alt="">
 
-				img/food-sandwich.jpg
+					<img src="img/food-sausage.jpg" alt="">
 
-				img/food-sausage.jpg
+					<img src="img/food-steak.jpg" alt="">
 
-				img/food-steak.jpg
+					<img src="img/food-tacos.jpg" alt="">
 
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+					<img src="img/food-wings.jpg" alt="">
+				</div>
 			</div>
 		</section>
 
@@ -64,13 +81,13 @@
 
 				<div class="text">
 					<h3>Güzel Yemekler, Güzel İnsanlar</h3>
-					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
+					<p>"Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
 						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
 						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
 						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
-						dolore
-						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
-						shankle duis chicken dolore andouille do tenderloin qui.</p>
+						dolore short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham
+						mollit
+						shankle duis chicken dolore andouille do tenderloin qui."</p>
 				</div>
 
 				<div id="bartender" class="pic">
@@ -125,15 +142,30 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
+			<div class="footer__menu">
+				<form>
+					<label for="emailAddress">Mail listemize katılın!</label><br />
+					<input id="emailAddress" type="email" size="64" maxlength="64" required
+						placeholder="E-posta Adresi" />
+					<button>Üye Ol</button>
+				</form>
+
+				<!-- nav -->
+				<nav>
+					<ul>
+						<li><a href="menu.html">Menü</a></li>
+						<li><a href="menu.html">Rezervasyonlar</a></li>
+						<li><a href="menu.html">Rezervasyonlar</a></li>
+						<li><a href="menu.html">Özel Teklifler</a></li>
+						<li><a href="menu.html">İletişim</a></li>
+					</ul>
+				</nav>
+			</div>
 			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			<div class="copyright">
+				©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			</div>
+
 		</footer>
 	</div>
 </body>
