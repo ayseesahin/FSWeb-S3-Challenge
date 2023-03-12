@@ -196,13 +196,13 @@ header {
   color: rgb(225, 239, 230);
 }
 
-.index-menu {
+.index-menu nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.index-menu a {
+.index-menu nav a {
   color: rgb(225, 239, 230);
 }
 
