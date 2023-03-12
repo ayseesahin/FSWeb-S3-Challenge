@@ -344,7 +344,7 @@ footer {
     flex-direction: column;
     line-height: normal;
   }
-  .index-menu {
+  .index-menu nav {
     flex-direction: column;
   }
   .social i {
